@@ -20,4 +20,8 @@ public final class SSIDthirdparty {
         return a - b
     }
     
+    public func Testlog(){
+        print("Hello world")
+    }
+    
 }
