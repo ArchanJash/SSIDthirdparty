@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "SSIDthirdparty"
-spec.version      = "0.0.6"
+spec.version      = "0.0.7"
 spec.summary      = " SSID third party library."
 
 spec.description  = <<-DESC
