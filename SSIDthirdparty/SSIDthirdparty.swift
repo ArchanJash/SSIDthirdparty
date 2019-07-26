@@ -30,7 +30,7 @@ import Foundation
 public class TestPod: NSObject {
     
     public func Testlog(){
-        print("Hello world")
+        print("Hello welcome to SSID!!!")
 }
 
 }
