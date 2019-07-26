@@ -12,19 +12,19 @@ import XCTest
 class SSIDthirdpartyTests: XCTestCase {
     
     
-    var SSIDthirdpartyLib: SSIDthirdparty!
-    
-    override func setUp() {
-        SSIDthirdpartyLib = SSIDthirdparty()
-    }
-    
-    func testAdd() {
-        XCTAssertEqual(SSIDthirdpartyLib.add(a: 1, b: 1), 2)
-    }
-    
-    func testSub() {
-        XCTAssertEqual(SSIDthirdpartyLib.sub(a: 2, b: 1), 1)
-    }
+//    var SSIDthirdpartyLib: SSIDthirdparty!
+//    
+//    override func setUp() {
+//        SSIDthirdpartyLib = SSIDthirdparty()
+//    }
+//    
+//    func testAdd() {
+//        XCTAssertEqual(SSIDthirdpartyLib.add(a: 1, b: 1), 2)
+//    }
+//    
+//    func testSub() {
+//        XCTAssertEqual(SSIDthirdpartyLib.sub(a: 2, b: 1), 1)
+//    }
 
     
 
