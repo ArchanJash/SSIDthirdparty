@@ -10,6 +10,7 @@
 		4404BD0D22EADE5700CBB79C /* SSIDthirdparty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4404BD0322EADE5700CBB79C /* SSIDthirdparty.framework */; };
 		4404BD1222EADE5700CBB79C /* SSIDthirdpartyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4404BD1122EADE5700CBB79C /* SSIDthirdpartyTests.swift */; };
 		4404BD1422EADE5700CBB79C /* SSIDthirdparty.h in Headers */ = {isa = PBXBuildFile; fileRef = 4404BD0622EADE5700CBB79C /* SSIDthirdparty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4404BD1E22EADF2700CBB79C /* SSIDthirdparty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4404BD1D22EADF2700CBB79C /* SSIDthirdparty.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		4404BD0C22EADE5700CBB79C /* SSIDthirdpartyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSIDthirdpartyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4404BD1122EADE5700CBB79C /* SSIDthirdpartyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSIDthirdpartyTests.swift; sourceTree = "<group>"; };
 		4404BD1322EADE5700CBB79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4404BD1D22EADF2700CBB79C /* SSIDthirdparty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSIDthirdparty.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				4404BD0622EADE5700CBB79C /* SSIDthirdparty.h */,
 				4404BD0722EADE5700CBB79C /* Info.plist */,
+				4404BD1D22EADF2700CBB79C /* SSIDthirdparty.swift */,
 			);
 			path = SSIDthirdparty;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					4404BD0222EADE5700CBB79C = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					4404BD0B22EADE5700CBB79C = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4404BD1E22EADF2700CBB79C /* SSIDthirdparty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +346,7 @@
 		4404BD1822EADE5700CBB79C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -357,6 +363,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Klizo.SSIDthirdparty;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +372,7 @@
 		4404BD1922EADE5700CBB79C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -389,6 +397,7 @@
 		4404BD1B22EADE5700CBB79C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SSIDthirdpartyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -406,6 +415,7 @@
 		4404BD1C22EADE5700CBB79C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SSIDthirdpartyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
