@@ -31,7 +31,19 @@ public class TestPod: NSObject {
     
     public func Testlog(){
         print("Hello welcome to SSID!!!")
-     
+        UIAlertController.init()
+        let alertController = UIAlertController(title: nil, message: "message", preferredStyle: .alert)
+        
+        let okAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default) {
+            UIAlertAction in
+            NSLog("OK Pressed")
+            
+        }
+        let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel) {
+            UIAlertAction in
+            NSLog("Cancel Pressed")
+        }
+  
     }
    
 }
