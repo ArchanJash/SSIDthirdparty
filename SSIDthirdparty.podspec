@@ -10,7 +10,7 @@ spec.description  = <<-DESC
 This CocoaPods library helps you perform calculation.
 DESC
 
-spec.homepage     = "https://bitbucket.org/klizos/ssid_ios_thirdpartyapp/src/master/"
+spec.homepage     = "git@bitbucket.org:klizos/ssid_ios_thirdpartyapp.git"
 spec.license      = { :type => "MIT", :file => "LICENSE" }
 spec.author       = { "ArchanJ" => "archan@klizos.com" }
 
