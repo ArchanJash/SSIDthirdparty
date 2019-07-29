@@ -31,19 +31,21 @@ public class TestPod: NSObject {
     
     public func Testlog(){
         print("Hello welcome to SSID!!!")
-        UIAlertController.init()
-        let alertController = UIAlertController(title: nil, message: "message", preferredStyle: .alert)
         
-        let okAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default) {
-            UIAlertAction in
-            NSLog("OK Pressed")
-            
-        }
-        let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel) {
-            UIAlertAction in
-            NSLog("Cancel Pressed")
-        }
   
+    }
+}
+
+public class TestAlert: UIAlertController {
+    public func Testalert(){
+        print("Hello welcome to SSID!!!")
+        let alert = UIAlertController(title: "Did you bring your towel?", message: "It's recommended you bring your towel before continuing.", preferredStyle: .alert)
+        
+        alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: nil))
+        alert.addAction(UIAlertAction(title: "No", style: .cancel, handler: nil))
+        
+        self.present(alert, animated: true)
+        
     }
    
 }
