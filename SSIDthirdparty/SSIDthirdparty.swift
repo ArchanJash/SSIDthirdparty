@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import WebKit
 //
 //public final class SSIDthirdparty {
 //
@@ -30,24 +30,13 @@ import Foundation
 public class TestPod: NSObject {
     
     public func Testlog(){
-        print("Hello welcome to SSID!!!")
-        
+        print("Hey welcome to SSID!!!")
+       
   
     }
 }
 
-public class TestAlert: UIAlertController {
-    public func Testalert(){
-        print("Hello welcome to SSID!!!")
-        let alert = UIAlertController(title: "Did you bring your towel?", message: "It's recommended you bring your towel before continuing.", preferredStyle: .alert)
-        
-        alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: nil))
-        alert.addAction(UIAlertAction(title: "No", style: .cancel, handler: nil))
-        
-        self.present(alert, animated: true)
-        
-    }
-   
+    
 }
 
 
